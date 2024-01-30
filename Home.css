@@ -1,0 +1,67 @@
+body {
+    background-color: #143934;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.Navbar {
+    background-color: #086e6162;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.NavbarTitulo {
+    color: #35dc7f;
+    position: relative;
+    right: 88%;
+}
+
+img[alt="Vacina.png"], img[alt="Medicamento.png"], img[alt="Patologia.png"]{
+    height: 250px;
+}
+
+.Cartao1Corpo, .Cartao2Corpo, .Cartao3Corpo {
+    height: 15rem;
+    background-color: #35dc7f;
+    position: relative;
+    text-align: center;
+}
+
+.Cartao1 {
+    width: 20%;
+    left: 10%;
+    bottom: 10%;
+    position: fixed;
+}
+
+.Cartao2 {
+    width: 20%;
+    left: 40%;
+    bottom: 10%;
+    position: fixed;
+}
+
+.Cartao3 {
+    width: 20%;
+    left: 70%;
+    bottom: 10%;
+    position: fixed;
+}
+
+.CartaoTitulo {
+    color: #143934;
+    font-size: xx-large;
+}
+
+.CartaoBotao {
+    transition: background-color 0.5s;
+    background-color: #052E11;
+    width: 55%;
+    height: 25%;
+    margin-top: 15%;
+    color: #ffffff;
+    font-size: x-large; 
+}
+
+.CartaoBotao:hover {
+    background-color: #2ca569; 
+}

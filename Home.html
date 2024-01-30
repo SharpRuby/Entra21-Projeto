@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Saúde</title>
+
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Link do CSS -->
+    <link rel="stylesheet" href="Home.css">
+
+    <!-- Link da Fonte Montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300&family=Roboto:wght@100;400&display=swap"
+        el="stylesheet">
+
+    <!-- Link do Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- link do FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg Navbar">
+        <div class="container-fluid">
+
+            <button class="btn text-white" data-bs-toggle="modal" data-bs-target="#meuModal">
+                <i class="fa fa-ellipsis-v"></i>
+            </button>
+
+            <a class="navbar-brand NavbarTitulo">
+                <img src="Logo.png" alt="Logo" width="30" height="25" class="d-inline-block align-text-top">
+                Registro Saúde
+            </a>
+        </div>
+    </nav>
+
+    <!-- Modal da Navbar -->
+    <div class="modal fade" id="meuModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Título do Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Conteúdo do modal...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cartão Vacinas-->
+    <div class="container mt-5">
+        <div class="card border-0 Cartao1">
+            <img src="Vacina.png" class="card-img-top border border-bottom-0 border-5" alt="Vacina.png">
+            <div class="card-body border border-top-0 border-5 Cartao1Corpo">
+                <h5 class="card-title CartaoTitulo">Vacinas</h5>
+                <a href="URL/do/seu/destino" target="_blank" class="btn CartaoBotao">Visualizar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cartão Medicamentos-->
+    <div class="container mt-5">
+        <div class="card border-0 Cartao2">
+            <img src="Medicamento.png" class="card-img-top border border-bottom-0 border-5" alt="Medicamento.png">
+            <div class="card-body border border-top-0 border-5 Cartao2Corpo">
+                <h5 class="card-title CartaoTitulo">Medicamentos</h5>
+                <a href="URL/do/seu/destino" target="_blank" class="btn CartaoBotao">Visualizar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cartão Patologias-->
+    <div class="container mt-5">
+        <div class="card border-0 Cartao3">
+            <img src="Patologia.png" class="card-img-top border border-bottom-0 border-5" alt="Patologia.png">
+            <div class="card-body border border-top-0 border-5 Cartao3Corpo">
+                <h5 class="card-title CartaoTitulo">Patologias</h5>
+                <a href="URL/do/seu/destino" target="_blank" class="btn CartaoBotao">Visualizar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
