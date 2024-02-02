@@ -15,6 +15,23 @@ body {
     right: 88%;
 }
 
+#meuModal .modal-header {
+    background-color: #143934;
+}
+
+#meuModal .modal-body {
+    padding: 20px; 
+    border: #257D58 5px solid;
+}
+
+.Usuario {
+    background-color: yellowgreen;
+}
+
+.Informacoes {
+    background-color: yellowgreen;
+}
+
 img[alt="Vacina.png"], img[alt="Medicamento.png"], img[alt="Patologia.png"]{
     height: 250px;
 }
