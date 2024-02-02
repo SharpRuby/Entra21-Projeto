@@ -83,48 +83,39 @@ img[alt="FotoUsuário.png"] {
     background-color: rgba(37, 125, 88, 0.8);
 }
 
-img[alt="Vacina.png"],
-img[alt="Medicamento.png"],
-img[alt="Patologia.png"] {
-    height: 250px;
+.Campo {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 25%;
 }
 
-.CartaoCorpo {
-    height: 6cm;
-    background-color: #35dc7f;
-    position: relative;
-    text-align: center;
-}
-
-.Cartoes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    top: 39vh;
-}
-
-.Cartao {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.800000011920929);
-    width: 26%;
-}
-
-.CartaoTitulo {
-    color: #143934;
+.Campo h3 {
+    color: #36C67E;
     font-size: xx-large;
+    font-weight: 500;
+    position: absolute;
+    left: 10%;
+    top: -80px;
+    width: 400px;
 }
 
-.CartaoBotao {
-    transition: background-color 0.5s;
+.Campo h4 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botao {
+    color: white;
     background-color: #052E11;
-    width: 55%;
-    height: 30%;
-    margin-top: 15%;
-    color: #ffffff;
-    font-size: x-large;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-.CartaoBotao:hover {
-    background-color: #2ca569;
-}
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
